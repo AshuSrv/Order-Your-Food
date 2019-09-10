@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "JavaScript"
+		},
+		{
+			"path": "WEB PRogramming"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WEB PRogramming"
+	}
+}

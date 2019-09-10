@@ -1,0 +1,81 @@
+<html>
+
+   <head>
+      <title>Order Your Food</title>
+<style>
+//input[type=text], input[type=password] {
+  //width: 100%;
+  //padding: 12px 20px;
+ // margin: 8px 0;
+//}
+
+//button {
+  //background-color: #4CAF50;
+  //color: white;
+  //padding: 14px 20px;
+  //margin: 8px 0;
+  //cursor: pointer;
+  //width: 100%;
+//}
+
+//button:hover {
+  //opacity: 0.5;
+//background-color:chocolate;
+//}
+
+//.headers{
+//text-align: center;
+//}
+
+//.full{
+  //background-image: linear-gradient(45deg,#0000A0, #3090C7);
+//}
+
+//.imgcontainer {
+  //text-align: center;
+  //margin: 24px 0 12px 0;
+//}
+
+//img.avatar {
+  //width: 20%;
+  //border-radius: 50%;
+//}
+
+//.container {
+  //padding: 10px 440px;
+//}
+
+//}
+//</style>
+   </head>
+   <body>
+     <form>
+<div class=full>
+<div class=headers>
+<hgroup>
+<h1>ORDER YOUR FOOD</h1>
+<h2>Login Here</h2>
+</hgroup>
+</div>
+<div class="imgcontainer">
+  <//img src="file:///C:/Users/Admin/Desktop/dash.jpg"class="avatar">
+  </div>
+  <div class="container">
+    <label for="uname">Username</label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+    </br>
+    <label for="psw">Password </label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    </br>
+    <button type="submit">Login</button>
+    <label>
+  </br>
+      <input type="checkbox" checked="checked" name="remember"> 
+    <a>Remember me
+    </label>
+  </div>
+</div>
+</form>
+   </body>
+	
+</html>

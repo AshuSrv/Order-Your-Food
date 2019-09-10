@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Registration page</title>
+</head>
+<body>
+<div class="container">
+  <form>
+
+    <label for="fname">First Name</label>
+</br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+</br>
+    <label for="lname">Last Name</label>
+</br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+</br>
+
+    <label for="city">City</label>
+    <select id="city" name="city">
+      <option value="chennai">Chennai</option>
+      <option value="banglore">banglore</option>
+      <option value="pune">pune</option>
+    </select>
+</br>
+<label for="BirthDate">Birth Date</label>
+</br>
+<input type="date" id="date" name="Your Date of Birth" placeholder="DD-MM-YYYY" required>
+</br>
+<label for="MobileNumber">Mobile Number</label>
+</br>
+<input type="tel" id="num" name="Your Phone num" placeholder="0123456789" required>
+</br>
+<label for="Gender">Gender</label>
+</br>
+<label for="Male">Male</label>
+<input type="radio" name="gender" required>
+<label for="Female">Female</label>
+<input type="radio" name="gender" required>
+</br>
+<label for="AcceptTermsandConditions">Accept Terms and Conditions</label>
+<input type="checkbox" id="box" required>
+</br>
+<input type="submit" value="Submit">
+
+  </form>
+</div>
+</body>
+</html>

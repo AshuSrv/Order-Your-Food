@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>Registration page</title>
+
+<style>
+
+        body{
+            background-image: url("poss.jpg");
+            
+        }
+        
+        input[type=text], input[type=password],input[type=email] {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+        }
+
+        hgroup{
+        text-align: center;
+        font-weight: bolder;
+        font-size: 25px;
+        }
+
+        
+        button {
+          background-color: #4CAF50;
+          color: white;
+          padding: 14px 20px;
+          font-weight: bold;
+            font-size: 20px;
+          margin: 8px 0;
+          cursor: pointer;
+          width: 100%;
+        }
+        
+        button:hover {
+          opacity: 0.5;
+        background-color:blue;
+        }
+        
+        
+         a{
+            font-size: 20px;
+            color: black;
+        }
+    
+        .container {
+          padding: 10px 440px;
+        }
+        
+        .container label{
+            font-weight: bold;
+            font-size: 20px;
+            color: black;
+        }
+        </style>
+      
+</head>
+<body>
+<form name="reg" action="database.php" method="POST">
+<hgroup>
+<h1>ORDER YOUR FOOD</h1>
+<h2>Register Here</h2>
+</hgroup>
+<div class="container">
+
+    <label for="fname">First Name</label>
+</br>
+    <input type="text" id="fname" name="fname" placeholder="Your name.." required>
+</br>
+    <label for="lname">Last Name</label>
+</br>
+    <input type="text" id="lname" name="lname" placeholder="Your last name.." required>
+</br>
+</br>
+<label for="password">Password</label>
+</br>
+    <input type="password" id="psw" name="psw" placeholder="Enter new password" required>
+</br>
+    <label for="repassword">Retype Password</label>
+</br>
+    <input type="password" id="repassword" name="repassword" placeholder="Enter Password again" required>
+</br>
+<label for="email">Email Id</label>
+</br>
+    <input type="text" id="email" name="email" placeholder="Enter Your Email ID" required>
+</br>
+
+
+    <label for="city">City</label>
+    <select id="city" name="city">
+      <option value="Chennai">Chennai</option>
+      <option value="Banglore">Banglore</option>
+      <option value="Pune">Pune</option>
+      <option value="Delhi">Delhi</option>
+      <option value="Gwalior">Gwalior</option>
+    </select>
+</br>
+</br>
+<label for="MobileNumber">Mobile Number</label>
+</br>
+<input type="tel" id="num" name="Yournum" placeholder="0123456789" required>
+</br>
+</br>
+<label for="Gender">Gender</label>
+</br>
+<label for="Male">Male</label>
+<input type="radio" name="gender" required>
+<label for="Female">Female</label>
+<input type="radio" name="gender" required>
+</br>
+</br>
+<label for="Address">Address</label>
+</br>
+<input type="text" id="address" name="address" placeholder="Address Line 1" required>
+</br>
+<input type="text" id="address" name="Address2" placeholder="Address Line 2" >
+</br>
+<label for="AcceptTermsandConditions">Accept Terms and Conditions</label>
+<input type="checkbox" id="box" required>
+</br>
+</br>
+<button type="submit">Register</button>
+
+  </form>
+</div>
+</body>
+</html>
